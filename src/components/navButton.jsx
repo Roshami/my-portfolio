@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function NavButton({ icon: Icon }) {
   return (
-    <div className="flex items-center justify-center p-12">
+    <div className="flex items-center justify-center p-3 ">
       <button className="relative group">
         {/* Button base/rim */}
-        <div className="absolute inset-0 rounded-full bg-gradient-to-b from-gray-200 to-gray-400 shadow-lg transform scale-105"></div>
+        <div className="absolute inset-0 rounded-full bg-gradient-to-b from-gray-200 to-gray-400 shadow-xl transform scale-105"></div>
         
         {/* Button face */}
         <div className="relative flex items-center justify-center w-18 h-18 rounded-full bg-purple-600 shadow-inner overflow-hidden transform transition-transform duration-200 hover:scale-95 active:scale-90">
