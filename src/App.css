@@ -27,3 +27,7 @@
 .scrollbar::-webkit-scrollbar-thumb:hover {
     background: transparent;
 }
+
+img {
+    filter: blur(0.5px);
+  }
