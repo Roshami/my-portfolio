@@ -11,22 +11,30 @@
 }
 
 /* In your global.css or tailwind.css */
-.scrollbar::-webkit-scrollbar {
+.scrollbar-container::-webkit-scrollbar {
     width: 8px;
     height: 8px;
 }
-.scrollbar::-webkit-scrollbar-track {
-    background-color: rgba(228, 223, 223, 0.384);
-    opacity: 0.5;
+.scrollbar-container::-webkit-scrollbar-track {
+    background-color: transparent;
     border-radius: 10px;
 }
-.scrollbar::-webkit-scrollbar-thumb {
-    background: #bfa9d794;
+.scrollbar-container::-webkit-scrollbar-thumb {
+    background: transparent;
     border-radius: 10px;
 }
-.scrollbar::-webkit-scrollbar-thumb:hover {
+.scrollbar-container::-webkit-scrollbar-thumb:hover {
     background: transparent;
 }
+
+.scrollbar-container::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.scrollbar-container:hover::-webkit-scrollbar-thumb {
+    background: rgba(204, 204, 204, 0.521);
+}
+
 
 img {
     filter: blur(0.5px);
